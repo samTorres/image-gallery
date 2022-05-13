@@ -6,6 +6,7 @@
 [[plugins]]
   package = "@netlify/plugin-gatsby"
 
- from = "/*"
+[[redirects]]
+  from = "/*"
   to = "/"
   status = 200
