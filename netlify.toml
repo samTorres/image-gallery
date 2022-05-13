@@ -1,6 +1,6 @@
 [build]
-  publish = "example/public"
-  command = "npm run build --workspace example"
+  publish = "image-gallery/public"
+  command = "npm run build --workspace image-gallery"
   environment = { GATSBY_CPU_COUNT = "1", GATSBY_CONCURRENT_DOWNLOAD = "15" }
 
 [[plugins]]
