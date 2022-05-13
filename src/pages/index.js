@@ -74,7 +74,6 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
         loading="eager"
         width={64}
         quality={95}
