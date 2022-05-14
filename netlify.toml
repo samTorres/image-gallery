@@ -1,11 +1,3 @@
-[build]
-  publish = "public"
-  command = "gatsby build"
-  environment = { GATSBY_CPU_COUNT = "1", GATSBY_CONCURRENT_DOWNLOAD = "15" }
-
-[[plugins]]
-  package = "@netlify/plugin-gatsby"
-
 [[redirects]]
   from = "/*"
   to = "/"
