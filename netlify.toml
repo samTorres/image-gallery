@@ -1,5 +1,5 @@
 [build]
-  publish = "image-gallery"
+  publish = "public"
   command = "gatsby build"
   environment = { GATSBY_CPU_COUNT = "1", GATSBY_CONCURRENT_DOWNLOAD = "15" }
 
