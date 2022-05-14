@@ -7,6 +7,4 @@
   package = "@netlify/plugin-gatsby"
 
 [[redirects]]
-  from = "/*"
-  to = "/"
-  status = 200
+/*    /index.html  200
