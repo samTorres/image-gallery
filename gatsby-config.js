@@ -10,7 +10,7 @@ module.exports = {
          link:'/'
       },
       {
-         name:'page2',
+         name:'Gallery',
          link:'/page-2'
       }
     ]

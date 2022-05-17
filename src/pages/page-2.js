@@ -15,7 +15,7 @@ const SecondPage = ({ data }) => {
         images={images}
         mdColWidth={25}
         gutter={".50rem"}
-        colWidth={25}
+        colWidth={50}
         rowMargin={-200}
       />
     </Layout>  
