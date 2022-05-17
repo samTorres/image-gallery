@@ -4,8 +4,19 @@ module.exports = {
     description: `Portfolio website`,
     author: `sam torres`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
-  },
-  plugins: [
+    menuLinks:[
+      {
+         name:'home',
+         link:'/'
+      },
+      {
+         name:'page2',
+         link:'/page-2'
+      }
+    ]
+},  
+
+plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,'gatsby-plugin-netlify',
     {

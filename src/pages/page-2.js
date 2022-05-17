@@ -4,14 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Gallery from '@browniebroke/gatsby-image-gallery'
+import Header from "../components/header"
 
 
 const SecondPage = ({ data }) => {
   const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
   // `images` is an array of objects with `thumb` and `full`
   return <Layout>
-      <h2>Gatsby image gallery demo</h2>
-      <p>A very simple page to demo the gallery component.</p>
       <Gallery
         images={images}
         mdColWidth={25}
