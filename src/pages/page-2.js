@@ -13,10 +13,9 @@ const SecondPage = ({ data }) => {
   return <Layout>
       <Gallery
         images={images}
-        mdColWidth={25}
-        gutter={".50rem"}
+        mdColWidth={33}
+        gutter={".25rem"}
         colWidth={100}
-        rowMargin={-200}
       />
     </Layout>  
 }
