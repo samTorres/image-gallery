@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     menuLinks:[
       {
-         name:'home',
+         name:'Home',
          link:'/'
       },
       {
