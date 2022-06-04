@@ -13,7 +13,7 @@ const SecondPage = ({ data }) => {
 
     
       <Gallery
-        imag={images}
+        images={images}
         mdColWidth={20}
         gutter={".25rem"}
         colWidth={100}
