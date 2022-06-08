@@ -6,12 +6,12 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     menuLinks:[
       {
-         name:'Home',
-         link:'/'
+         name:'',
+         link:''
       },
       {
-         name:'Gallery',
-         link:'/page-2'
+         name:'',
+         link:''
       }
     ]
 },  
